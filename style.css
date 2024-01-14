@@ -1,0 +1,106 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@500;700&family=Work+Sans:wght@400;500;700;800&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+margin:0;
+padding: 0;
+}
+/* shared styles */
+.color{
+    color: #3A3A3A;
+}
+header{
+    padding: 85px 120px;
+    border: 1px solid blue;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul {
+display: flex;
+list-style: none;
+font-size: 16px;
+font-weight: 600;
+gap: 34px;
+}
+nav ul img{
+    width: 24px;
+height: 24px;
+}
+nav h3{
+    width: 243px;
+    height: 52.2px;
+    font-weight: 700px;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+.banner1{
+    padding: 200px 0px 100px 0px;
+   
+    width: 1440px;
+height: 306px;
+}
+
+.banner{
+    display: flex;
+    font-feature-settings: 'clig' off, 'liga' off;
+    justify-content: space-between;
+}
+/* .banner-img{
+    background: url(./images/Circle\ design.svg);
+    width: 475px;
+    background-repeat: no-repeat;
+height: 475px; */
+
+
+/* } */
+.banner-img{
+    padding-top: 30px;;
+}
+.image{
+    
+    padding: 30px 0px 80px 0px;
+    width: 475px;
+    height: 475px;
+background: url(./images/Circle\ design.svg);
+background-repeat: no-repeat;
+}
+.banner-title{
+    width: 582px;
+height: 133px;
+font-size: 52px;
+font-weight: 700;
+}
+.banner-description{
+    width: 505px;
+height: 60.9px;
+font-size: 16px;
+font-weight: 600;
+
+}
+.btn{
+    display: inline-flex;
+padding: 10px 24px;
+align-items: flex-start;
+gap: 8px;
+border-radius: 41px;
+background: #E02C6D;
+}
+.btn-text{
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
